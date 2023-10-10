@@ -1,7 +1,6 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-        url("../fonts/Montserrat-SemiBold.woff") format("woff");
+    src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -9,9 +8,109 @@
   
   @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Regular.woff.woff2") format("woff2"),
-        url("../fonts/Montserrat-Regular.woff.woff") format("woff");
+    src: url("../fonts/Montserrat-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000000;
+    min-width: 1440px;
+  }
+
+  .wrapper {
+    width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .page-body {
+    background-color: #fffdf8;
+    padding: 60px 0;
+  }
+
+  .wysiwyg-wrapper h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 59px;
+    margin-bottom: 24px;
+  }
+
+  .wysiwyg-wrapper h2 {
+    color: #9f7303;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .wysiwyg-wrapper h3 {
+    color: #9f7303;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .wysiwyg-wrapper ul,
+.wysiwyg-wrapper ol {
+  margin-bottom: 50px;
+  padding-left: 22px;
+}
+
+.wysiwyg-wrapper li {
+  margin-bottom: 16px;
+  position: relative;
+  list-style: none;
+}
+
+.wysiwyg-wrapper li::after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #f5d581;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 12px;
+  left: -20px;
+}
+
+.wysiwyg-wrapper blockquote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  color: #9f7303;
+  padding: 40px 100px;
+  border-top: 1px solid #f5d581;
+  border-bottom: 1px solid #f5d581;
+  text-align: center;
+  width: 70%;
+  margin: 60px auto 60px auto;
+}
