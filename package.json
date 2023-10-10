@@ -1,0 +1,23 @@
+{
+  "name": "interior-lounge-education-progect",
+  "version": "1.0.0",
+  "description": "личный проект Дизайн общественных пространств",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "browser-sync start --server --files '*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KomlevaAlena/Interior-lounge-education-progect.git"
+  },
+  "author": "Алена",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KomlevaAlena/Interior-lounge-education-progect/issues"
+  },
+  "homepage": "https://github.com/KomlevaAlena/Interior-lounge-education-progect#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}
