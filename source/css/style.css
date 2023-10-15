@@ -46,6 +46,7 @@
     font-weight: 400;
     color: #000000;
     min-width: 1440px;
+    margin: 0 auto;
   }
 
   .wrapper {
