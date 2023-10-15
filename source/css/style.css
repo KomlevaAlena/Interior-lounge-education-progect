@@ -116,9 +116,18 @@
   margin: 60px auto 60px auto;
 }
 
+.reviews {
+  max-width: 1440px;
+  background-color: #F4EFE2;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 88px;
+}
+
 .reviews-wrapper {
   margin: 0 auto;
   max-width: 1100px;
+  background-color: #F4EFE2;
 }
 
 .review {
@@ -160,4 +169,18 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+}
+
+.order {
+  max-width: 1440px;
+  background-color: #F4EFE2;
+  margin: 0 auto;
+}
+
+.order .wrapper {
+  width: 1110px;
+  border-bottom: 1px solid #f5d581;
+}
+.order h2 {
+  color: #9f7303;
 }
