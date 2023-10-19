@@ -7,8 +7,31 @@
     <title>INTERIOR LOUNGE — дизайн общественных пространств</title>
   </head>
   <body class="body">
-    <header>
+    <header class="main-header">
       <!--шапка-->
+      <div class="main-header-wrapper">
+          <div class="main-header-logo-wrapper">
+            <a class="main-header-logo" href="#">
+              <img src="img/logo-interior-lounge.svg" alt="">
+            </a>
+          </div>
+          <nav class="main-nav">
+            <div class="menu-primary-container">
+              <ul class="menu">
+                <li class="menu-item menu-item-has-children">
+                  <a href="#">Наши проекты</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">Tomazzi Hall</a></li>
+                    <li class="menu-item"><a href="#">Lounge Hall</a></li>
+                    <li class="menu-item"><a href="#">Astra Hall</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item current-menu-item"><a href="#">Контакты</a></li>
+                <li class="menu-item menu-item-styled"><a href="#">Оставить отзыв</a></li>
+              </ul>
+            </div>
+          </nav>
+      </div>
     </header>
     <main class="page-body">
       <section class="main-area">
@@ -56,19 +79,19 @@
                 <div class="order-form__wrapper">
                   <div class="order-form__item">
                     <div class="cf7md-item">
-                      <textarea class="wpcf7-text" placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                      <textarea class="wpcf7-text" cols="40" rows="10" placeholder="Расскажите, что вы думаете о проекте"></textarea>
                     </div>
   
                   </div>
                   <div class="order-form__item">
                     <div class="cf7md-item">
-                      <input type="text" class="wpcf7-text" placeholder="Ваше имя">
+                      <input type="text" size="40" class="wpcf7-text" placeholder="Ваше имя">
                     </div>
                   </div>
                 </div>
                 <div class="order-form__submit-wrapper">
                   <button class="wpcf7-submit">Отправить</button>
-                  <p class="order-form__text">Отзыв будет добавлен после проверки модератором</p>
+                  <div class="order-form__text">Отзыв будет добавлен после проверки модератором</div>
                 </div>
               </form>
             </div>
